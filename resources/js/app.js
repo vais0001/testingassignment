@@ -64,7 +64,7 @@ function turnLight() {
     document.getElementById('button-light2').className = "button-light";
     document.getElementById('button-light3').className = "button-light";
     document.getElementById('button-light4').className = "button-light";
-    document.querySelector('.widget-dark').className = "widget-light";
+    //document.querySelector('.widget-dark').className = "widget-light";
     document.querySelector('.weather-status').style.color = 'black';
     setRenderColor("#A3ABBD");
 }
@@ -328,6 +328,7 @@ function runModel() {
             }
         )
     }
+
 
     let rooms = []
 
